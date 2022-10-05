@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
+    <style>
+        body{
+           background-color: #FFDAB9;
+           text-align: center;
+        }
+ 
+ 
+   </style>
 </head>
 
 <body>
@@ -27,30 +35,46 @@
     </header>
 
     <main>
+
+        <section>
+            <h2>Ways to Contact me</h2>
+            <ul>
+               <li>Logandobson@hotmail.com</li>
+               <li>705-816-1250</li>
+               <li><a href="https://www.linkedin.com/in/logan-dobson-638748252/">My LinkedIn Profile</a></li>
+               <li><a href="https://github.com/LoganDobson">My GitHub Account</a></li>
+
+                
+            </ul>
+        </section><br>
+        
         <form action="./thanks.html" method="post" name="Lesson-03 - contact me " netlify>
             <fieldset>
                 <legend>Your Information</legend>
-                    <div>
-                        <label for="firstName">First Name</label><br>
-                        <input type="text" name="firstName" id="firstName" required maxlength="15" minlength="2" placeholder="Logan"><br>
-                        <small>REQUIRED!</small>
-                    </div>
-                    <div>
-                        <label for="lastName">Last Name</label><br>
-                        <input type="text" name="lastName" id="lastName" required maxlength="20" minlength="2" placeholder="Dobson"><br>
-                        <small>REQUIRED!</small>
-                    </div>
-                    <div>
-                        <label for="company">Company</label><br>
-                        <input type="text" name="company" id="company" required maxlength="50" minlength="2" placeholder="ACME Inc">
-                    </div>
-                    <div>
-                        <label for="noOfEmployees"> Number Of Employees</label><br>
-                        <span>N/A</span><input type="radio" name="noOfEmployees" id="noOfEmployees" checked>
-                        <span>1-20</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="1-20" >
-                        <span>21-100</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="21-100">
-                        <span>100+</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="100+">
-                    </div>
+                <div>
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" name="firstName" id="firstName" required maxlength="15" minlength="2"
+                        placeholder="Logan"><br>
+                    <small>REQUIRED!</small>
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" name="lastName" id="lastName" required maxlength="20" minlength="2"
+                        placeholder="Dobson"><br>
+                    <small>REQUIRED!</small>
+                </div>
+                <div>
+                    <label for="company">Company</label><br>
+                    <input type="text" name="company" id="company" required maxlength="50" minlength="2"
+                        placeholder="ACME Inc">
+                </div>
+                <div>
+                    <label for="noOfEmployees"> Number Of Employees</label><br>
+                    <span>N/A</span><input type="radio" name="noOfEmployees" id="noOfEmployees" checked>
+                    <span>1-20</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="1-20">
+                    <span>21-100</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="21-100">
+                    <span>100+</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="100+">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Your Contact Options</legend>
@@ -68,7 +92,7 @@
                 <legend>Your Inquiry</legend>
                 <div>
                     <label for="inquiryType">What is your inquiry about?</label><br>
-                    <select name="inquiryType" id="inquiryType"required>
+                    <select name="inquiryType" id="inquiryType" required>
                         <option value="employment">Employment Opportunity</option>
                         <option value="business">Business Opportunity</option>
                         <option value="freelance">Freelance Inquiry</option>
@@ -79,7 +103,8 @@
 
                 <div>
                     <label for="message">Your Message</label><br>
-                    <textarea name="message" id="message" cols="30" rows="10" required placeholder="Your inquiry text here"></textarea><br>
+                    <textarea name="message" id="message" cols="30" rows="10" required
+                        placeholder="Your inquiry text here"></textarea><br>
                     <small>REQUIRED!</small>
                 </div>
             </fieldset>
