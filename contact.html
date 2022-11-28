@@ -6,18 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <style>
-        body{
-           background-color: #FFDAB9;
-           text-align: center;
-           border: 1px solid black;
-        }
- 
- 
-   </style>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles2.css">
 </head>
 
 <body>
+
+
     <header>
         <nav>
             <ul>
@@ -32,52 +27,55 @@
                 </li>
             </ul>
         </nav>
-        <h1>Contact Me</h1>
+        
     </header>
 
+
+
+
+
+
+    <section>
+        <h1>Ways to Contact me</h1>
+        <ul>
+            <li>Logandobson@hotmail.com</li>
+            <li>705-816-1250</li>
+            <li><a href="https://www.linkedin.com/in/logan-dobson-638748252/">My LinkedIn Profile</a></li>
+            <li><a href="https://github.com/LoganDobson">My GitHub Account</a></li>
+
+
+        </ul>
+    </section><br>
     <main>
-
-        <section>
-            <h2>Ways to Contact me</h2>
-            <ul>
-               <li>Logandobson@hotmail.com</li>
-               <li>705-816-1250</li>
-               <li><a href="https://www.linkedin.com/in/logan-dobson-638748252/">My LinkedIn Profile</a></li>
-               <li><a href="https://github.com/LoganDobson">My GitHub Account</a></li>
-
-                
-            </ul>
-        </section><br>
-        
         <form action="./thanks.html" method="post" name="Lesson-03 - contact me " netlify>
-            <fieldset>
+            <fieldset id="group1">
                 <legend>Your Information</legend>
-                <div>
+                <div id="firstName" >
                     <label for="firstName">First Name</label><br>
                     <input type="text" name="firstName" id="firstName" required maxlength="15" minlength="2"
                         placeholder="Logan"><br>
                     <small>REQUIRED!</small>
                 </div>
-                <div>
+                <div id="lastName">
                     <label for="lastName">Last Name</label><br>
                     <input type="text" name="lastName" id="lastName" required maxlength="20" minlength="2"
                         placeholder="Dobson"><br>
                     <small>REQUIRED!</small>
                 </div>
-                <div>
+                <div id="company">
                     <label for="company">Company</label><br>
                     <input type="text" name="company" id="company" required maxlength="50" minlength="2"
                         placeholder="ACME Inc">
                 </div>
-                <div>
+                <div id="numEmp">
                     <label for="noOfEmployees"> Number Of Employees</label><br>
-                    <span>N/A</span><input type="radio" name="noOfEmployees" id="noOfEmployees" checked>
-                    <span>1-20</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="1-20">
-                    <span>21-100</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="21-100">
+                    <span>N/A</span><input type="radio" name="noOfEmployees" id="noOfEmployees" checked> <br>
+                    <span>1-20</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="1-20"> <br>
+                    <span>21-100</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="21-100"> <br>
                     <span>100+</span><input type="radio" name="noOfEmployees" id="noOfEmployees" value="100+">
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset id="group2">
                 <legend>Your Contact Options</legend>
                 <div>
                     <label for="email">Email</label><br>
@@ -89,7 +87,7 @@
                     <input type="tel" name="tel" id="tel" placeholder="1(234)567-890">
                 </div>
             </fieldset>
-            <fieldset>
+            <fieldset id="group3">
                 <legend>Your Inquiry</legend>
                 <div>
                     <label for="inquiryType">What is your inquiry about?</label><br>
@@ -109,7 +107,7 @@
                     <small>REQUIRED!</small>
                 </div>
             </fieldset>
-            <div>
+            <div id="button">
                 <input type="submit" value="Submit Inquiry">
             </div>
         </form>

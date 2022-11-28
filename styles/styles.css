@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Figtree&display=swap');
+
+
+header{
+    text-align: center;
+    justify-content: center;
+    font-family: Avro, serif;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 17%;
+    left: 30%;
+    width: 100px;
+    height: 100px;
+  }
+h1{
+    font-size: 4em;
+    color: #020E54;
+    gap: 5%;
+}
+
+
+body{
+    background-color: #FFEAB8;
+    text-align: center;
+    border: 1px solid black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+ main{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     position: absolute;
+     justify-content: space-around;
+    top: 17%;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+ }
+
+
+ h2,p{
+     font-size: 2em;
+     font-family: 'Figtree', sans-serif;
+     color: #020E54;
+     padding: .5em;
+ }
+ nav{
+    height: 100px;
+    width: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding: 1em;
+    
+}
+
+nav ul{
+    display: flex;
+    padding: 1em;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+nav ul a:hover{
+    color: limegreen;
+}
+img{
+   
+    height: 350px;
+    width: 250px;
+    padding: 1.2em;
+    float: left;
+    margin: auto;
+    
+    
+}
+footer {
+    background-color: #A6DEAE;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+    
+}
+

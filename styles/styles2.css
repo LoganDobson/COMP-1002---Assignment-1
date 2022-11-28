@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Figtree&display=swap');
+
+
+header{
+    height: 100px;
+    width: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    font-size: 20px;
+    font-family: 'Arvo', serif;
+    padding: 1em;
+    
+}
+    
+ 
+ nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    padding: 1em;
+    justify-content: space-around;
+    width: 100%;
+}
+nav ul a:hover{
+    color: limegreen;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #FFEAB8;
+}
+h1{
+    font-family: Avro, serif;
+    color: #020E54;
+    font-size: 3em;
+    padding: 1em;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     justify-content: space-evenly;
+     margin-top: 10px;
+}
+
+h2{
+    font-size: 1em;
+}
+h2,li{
+    font-family: Figtree, sans-serif;
+    color: #020E54;
+}
+ul{
+    border: 1px solid;
+    padding: 1em;
+}
+nav ul{
+    border-color: #020E54;
+}
+
+
+#group1 {
+    width: 32%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+    
+    
+}
+
+#group2{
+    width: 32%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#group3{
+    width: 32%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#button{
+    width: 32%;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #A6DEAE;
+    color: #333;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+
+}
